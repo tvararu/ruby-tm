@@ -20,3 +20,5 @@ q3 _ q6 n R
 q4 _ q6 n R
 
 # Starea finala: F = q6
+# C spatiu = nrCaractere + 1 = nrCaractere
+# C timp = nrCaractere + 1 = nrCaractere

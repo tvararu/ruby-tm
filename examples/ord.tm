@@ -23,3 +23,5 @@ q3 x q4 x R
 q4 y q0 x R
 
 # Stare finala: F = q2
+# C spatiu = nrCaractere
+# C timp = nr_y * nrCaractere

@@ -20,3 +20,5 @@ q1 _ q3 _ R
 
 # Starea finala: F = q2 daca s-a gasit
 #                F = q3 daca nu s-a gasit
+# C spatiu = nrCaractere
+# C timp = nrCaractere

@@ -4,3 +4,5 @@ q0 0 q0 0 R
 q0 1 q1 1 R
 
 # Starea finala: F = q1
+# C spatiu = nrCaractere
+# C timp = nrCaractere

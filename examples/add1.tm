@@ -1,7 +1,7 @@
 # Adauga 1 la un numar binar.
 # Ex: 1011 -> 1100
 
-# Mai intai parcurgem banda pana la sfarsit, citirea
+# Mai intai parcurgem banda pana la sfarsit, adica intalnirea
 # caracterului blank.
 q0 1 q0 1 R
 q0 0 q0 0 R
@@ -15,3 +15,5 @@ q1 0 q2 1 L
 q1 _ q2 1 L
 
 # Starea finala: F = q2
+# C spatiu = nrCaractere + 1 = nrCaractere
+# C timp = (2 * nrCaractere) + 1 = 2 * nrCaractere

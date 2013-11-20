@@ -67,3 +67,7 @@ done3    0   3done2    0    L
 # (ELSE) Daca intalnim un 0 pe a treia pozitie binara, continuam
 # pentru pozitia 4.
 poz3     0   poz4      0    L
+
+# F = {poz1, poz2, poz3, poz4}
+# C spatiu = 
+# C timp = 
