@@ -113,13 +113,12 @@ class Instructions
   end
 end
 
-if __FILE__ == $0
-  if ARGV.empty?
-    abort("usage: tm <input_file> <input_tape> [-v]\nUse -v or generally any string containing v as the 3rd parameter for verbose mode.\n\nexample: tm reverse.tm something\ngnihtemos")
-  end
-  ins = Instructions.new(ARGV[0])
-  tape = Tape.new(ARGV[1])
-  ins.run(tape)
-
-  puts tape
+if ARGV.empty?
+  puts "usage: tm <input_file> <input_tape> [-v]\nUse -v or generally any string containing v as the 3rd parameter for verbose mode.\n\nexample: tm reverse.tm something\ngnihtemos"
+  abort()
 end
+ins = Instructions.new(ARGV[0])
+tape = Tape.new(ARGV[1])
+ins.run(tape)
+
+puts tape

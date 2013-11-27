@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "ruby-tm"
-  s.version = "0.0.2"
+  s.version = "0.0.4"
   s.authors = ["Theodor Văraru"]
   s.email = ["theo@tvararu.ro"]
   s.homepage = "http://github.com/tvararu/ruby-tm"
