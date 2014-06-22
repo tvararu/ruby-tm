@@ -6,7 +6,9 @@ This is a turing machine interpreter packaged as a command line tool. I cobbled 
 
 ## Installation
 
-`gem install ruby-tm`
+```bash
+gem install ruby-tm
+```
 
 ## Usage
 
@@ -14,7 +16,9 @@ Run `tm` in a terminal for the basic help.
 
 You will need to supply a text file with the turing machine instructions that you want to add to the machine. These have to be of the following structure:
 
-`CURR_STATE READ_VAL NEW_STATE WRITE_VAL DIRECTION`
+```
+CURR_STATE READ_VAL NEW_STATE WRITE_VAL DIRECTION
+```
 
 Example: `read_first b append_b _ L`
 Interpretation: if we're on the `read_first` label and the value under the tape head is on the `b` letter, change the label to the `append_b` label, write `blank` under the tape head and move the tape head to the Left.
